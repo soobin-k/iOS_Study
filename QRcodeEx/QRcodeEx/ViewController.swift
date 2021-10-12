@@ -6,7 +6,33 @@
 //
 
 import UIKit
+class ReaderView: UIView {
 
+  weak var delegate: ReaderViewDelegate?
+
+  var previewLayer: AVCaptureVideoPreviewLayer?
+  var centerGuideLineView: UIView?
+
+  var captureSession: AVCaptureSession?
+
+  var isRunning: Bool {
+    guard let captureSession = self.captureSession else {
+      return false
+    }
+
+    return captureSession.isRunning
+  }
+
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    self.initialSetupView()
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    self.initialSetupView()
+  }
+}
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -49,7 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B67C56E2972790725C71E8CAFA761EA /* PBXContainerItemProxy */ = {
+		00D5EC2258F82A2C6DA3DFBB68F11FA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -329,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E6060548A3B22A305315713C77A31C65 /* PBXTargetDependency */,
+				5561C3E5B70EE239AF14B130A6931FCF /* PBXTargetDependency */,
 			);
 			name = "Pods-FSCalendarEx";
 			productName = "Pods-FSCalendarEx";
@@ -416,11 +416,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E6060548A3B22A305315713C77A31C65 /* PBXTargetDependency */ = {
+		5561C3E5B70EE239AF14B130A6931FCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSCalendar;
 			target = 9CB37DB0FF56D72803998EAB74029389 /* FSCalendar */;
-			targetProxy = 3B67C56E2972790725C71E8CAFA761EA /* PBXContainerItemProxy */;
+			targetProxy = 00D5EC2258F82A2C6DA3DFBB68F11FA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
