@@ -1,0 +1,6 @@
+framework module Pods_HorizontalCollectionViewEx {
+  umbrella header "Pods-HorizontalCollectionViewEx-umbrella.h"
+
+  export *
+  module * { export * }
+}
