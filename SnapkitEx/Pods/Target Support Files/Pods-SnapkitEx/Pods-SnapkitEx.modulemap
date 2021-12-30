@@ -1,0 +1,6 @@
+framework module Pods_SnapkitEx {
+  umbrella header "Pods-SnapkitEx-umbrella.h"
+
+  export *
+  module * { export * }
+}
